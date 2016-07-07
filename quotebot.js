@@ -25,7 +25,7 @@ var replies =
   fs.readFileSync(
     process.env.QUOTE_FILE,
     { encoding: 'utf-8' }
-  ).split('\n');
+  ).split('\n').filter(function (x) { return x.trim().length > 0; });
 
 var quote = function () {
   var index = Math.floor(Math.random() * replies.length);
