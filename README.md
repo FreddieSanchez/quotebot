@@ -1,3 +1,5 @@
+quotebot is an IRC bot for quoting quotables.
+
 ## Usage
 
 ```
