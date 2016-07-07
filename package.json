@@ -1,0 +1,36 @@
+{
+  "name": "quotebot",
+  "description": "An IRC bot for quoting quotables.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/earldouglas/quotebot",
+  "author": {
+    "name": "James Earl Douglas",
+    "email": "james@earldouglas.com",
+    "url": "http://earldouglas.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/earldouglas/quotebot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/earldouglas/quotebot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/earldouglas/quotebot/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "quotebot",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "irc": "0.3.7"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "quote"
+  ]
+}
