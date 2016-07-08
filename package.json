@@ -1,6 +1,6 @@
 {
   "name": "quotebot",
-  "description": "An IRC bot for quoting quotables.",
+  "description": "An IRC bot for periodically quoting quotables.",
   "version": "0.1.0",
   "homepage": "https://github.com/earldouglas/quotebot",
   "author": {
